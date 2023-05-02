@@ -49,13 +49,18 @@ export default {
         },
         valid() {
             if(this.inputMobile.length >= 9) {
+                if(this.inputMobile != '173527250' && this.value != '+60') {
+                    return;
+                }
                 // TODOs
                 this.$router.push('/registration');
+                console.log(this.value + this.inputMobile);
                 console.log('valid');
             }
             else {
                 // TODOs
                 window.alert('Please enter a valid mobile number');
+                return;
             }
         },
         onInput() {
