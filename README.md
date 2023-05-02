@@ -12,6 +12,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 # Additional (since the assessment was funny and challenging)
 
-Redo with Vue + Arco Design: [on going]()
+Redo with Vue + Arco Design: [vue-assessment-with-vue-arco](https://github.com/Kaikiat1126/vue-assessment)
 
 Redo with React + Arco Design: [on going]()
